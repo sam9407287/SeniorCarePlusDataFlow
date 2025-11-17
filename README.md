@@ -6,6 +6,64 @@
 
 將多層 IoT 數據（4層）轉換為扁平結構（2層），用於 BigQuery 分析和 Redis 實時操作。
 
+---
+
+## 📚 新開發者快速入門
+
+> **第一次看這個 Repo？按順序讀這些文檔！**
+
+### 🎯 5 分鐘了解核心概念
+
+1. **讀這個 README**（2 分鐘）- 了解專案目的
+2. **讀 [docs/DATA_FORMAT_GUIDE.md](docs/DATA_FORMAT_GUIDE.md)**（3 分鐘）
+   - 看「快速參考表」了解所有字段
+   - Gateway vs Anchor 的區別
+
+### 💻 15 分鐘根據你的角色選擇
+
+**如果你是前端開發者：**
+- ✅ 複製 [docs/typescript-types.ts](docs/typescript-types.ts)
+- ✅ 在 React 項目中導入使用
+- ✅ 享受 IDE 自動完成和類型檢查
+- 📖 文檔：[DATA_FORMAT_GUIDE.md](docs/DATA_FORMAT_GUIDE.md)
+
+**如果你是後端開發者：**
+- ✅ 讀 [docs/BACKEND_INTEGRATION.md](docs/BACKEND_INTEGRATION.md)
+- ✅ 查看 Kotlin/Python 集成示例
+- ✅ 了解如何查詢 Redis 和 BigQuery
+- 📖 參考：[src/models/](src/models/)
+
+**如果你是架構師：**
+- ✅ 讀 [ARCHITECTURE.md](ARCHITECTURE.md) - 完整系統設計
+- ✅ 看 [docs/DATA_FORMAT_GUIDE.md](docs/DATA_FORMAT_GUIDE.md) - 數據流向
+- ✅ 查看 [DELIVERY_CHECKLIST.md](DELIVERY_CHECKLIST.md) - 完整功能
+
+### 🧪 測試示例數據
+
+```bash
+# 查看測試數據
+cat test_data/gateways.json
+cat test_data/anchors.json
+
+# 本地運行轉換
+python -m src.main --runner DirectRunner \
+  --pipeline gateway \
+  --input-type file \
+  --input-file test_data/gateways.json
+```
+
+### 📋 完整文檔地圖
+
+| 文檔 | 適合人群 | 用時 |
+|------|---------|------|
+| 📚 [DATA_FORMAT_GUIDE.md](docs/DATA_FORMAT_GUIDE.md) | 所有開發者 | 5 分鐘 |
+| 💻 [typescript-types.ts](docs/typescript-types.ts) | 前端開發者 | 複製即用 |
+| 🔧 [BACKEND_INTEGRATION.md](docs/BACKEND_INTEGRATION.md) | 後端開發者 | 20 分鐘 |
+| 📐 [ARCHITECTURE.md](ARCHITECTURE.md) | 架構師/技術負責 | 30 分鐘 |
+| 📖 [README.md](README.md) | 所有人 | 10 分鐘 |
+
+---
+
 ```
 4層結構 → 2層結構
 ┌─────────────────────────────────────┐
@@ -228,4 +286,5 @@ MIT
 ## 👥 貢獻者
 
 Senior Care Plus Team
+
 

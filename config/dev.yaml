@@ -1,0 +1,18 @@
+project_id: your-gcp-project-dev
+region: asia-east1
+
+gcs_temp_bucket: senior-care-dev-temp
+gcs_staging_bucket: senior-care-dev-staging
+
+gateway_pubsub_topic: projects/your-project/topics/gateway-events
+anchor_pubsub_topic: projects/your-project/topics/anchor-events
+
+bigquery_dataset: senior_care_dev
+gateway_table: gateway_events
+anchor_table: anchor_events
+
+batch_size: 1000
+max_num_workers: 5
+
+log_level: DEBUG
+

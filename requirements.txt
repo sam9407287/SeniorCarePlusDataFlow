@@ -1,0 +1,32 @@
+# Apache Beam
+apache-beam[gcp]==2.53.0
+
+# Google Cloud
+google-cloud-storage==2.14.0
+google-cloud-bigquery==3.14.1
+google-cloud-pubsub==2.18.4
+google-cloud-dataflow==0.8.0
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+pyarrow==13.0.0
+
+# Serialization
+google-api-core==2.12.0
+protobuf==4.24.4
+
+# Configuration
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# Development
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+

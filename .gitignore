@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+*.jar
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+.classpath
+.project
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+venv/
+
+# Beam
+beam_outputs/
+beam_model/
+temp/
+
+# Environment
+.env
+.env.local
+*.log
+
+# GCP
+.gcp/
+credentials.json
+service-account-key.json
+

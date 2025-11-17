@@ -1,0 +1,18 @@
+project_id: senior-care-plus-prod
+region: asia-east1
+
+gcs_temp_bucket: senior-care-prod-temp
+gcs_staging_bucket: senior-care-prod-staging
+
+gateway_pubsub_topic: projects/senior-care-plus-prod/topics/gateway-events
+anchor_pubsub_topic: projects/senior-care-plus-prod/topics/anchor-events
+
+bigquery_dataset: senior_care_analytics
+gateway_table: gateway_events
+anchor_table: anchor_events
+
+batch_size: 10000
+max_num_workers: 20
+
+log_level: INFO
+

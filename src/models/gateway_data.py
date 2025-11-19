@@ -233,3 +233,6 @@ class FlattenedGatewayData:
             timestamp=gateway.last_seen
         )
 
+
+
+

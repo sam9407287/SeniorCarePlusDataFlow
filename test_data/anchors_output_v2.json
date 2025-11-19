@@ -1,46 +1,95 @@
-{
-  "anchor_id": "anchor_001",
-  "gateway_id": "gw_001",
-  "name": "Bed Anchor",
-  "mac_address": "AA:BB:CC:DD:EE:FF",
-  "status": "online",
-  "last_seen": "2025-11-17T14:30:00Z",
-  "is_bound": true,
-  "device_type": "anchor",
-  "device_id": "anchor_001",
-  "device_name": "Bed Anchor",
-  "timestamp": "2025-11-17T14:30:00Z",
-  "processing_timestamp": "2025-11-19T01:34:05.033620Z",
-  "position": {
-    "x": 5.2,
-    "y": 8.1,
-    "z": 0.8
-  },
-  "cloud_data": {
-    "id": 1,
-    "gateway_id": 1,
-    "pub.msg.data.battery_voltage": 3.2,
-    "pub.msg.data.rssi": -52,
-    "pub.msg.data.heart_rate": 72,
-    "pub.msg.data.temperature": 36.5,
-    "pub": {
-      "msg": {
-        "data": {
-          "battery_voltage": 3.2,
-          "rssi": -52,
-          "heart_rate": 72,
-          "temperature": 36.5
-        }
-      }
-    },
-    "fw_update": 0,
-    "led": 1,
-    "ble": 1,
-    "initiator": 0,
+[
+  {
+    "anchor_id": "anchor_001",
+    "gateway_id": "gw_001",
+    "name": "Bed Anchor",
+    "mac_address": "AA:BB:CC:DD:EE:FF",
+    "status": "online",
+    "lastSeen": "2025-11-17T14:30:00Z",
+    "isBound": true,
     "position": {
       "x": 5.2,
       "y": 8.1,
       "z": 0.8
+    },
+    "cloud_data": {
+      "id": 1,
+      "gateway_id": 1,
+      "fw_update": 0,
+      "led": 1,
+      "ble": 1,
+      "initiator": 0,
+      "position": {
+        "x": 5.2,
+        "y": 8.1,
+        "z": 0.8
+      },
+      "pub_msg_data_battery_voltage": 3.2,
+      "pub_msg_data_rssi": -52,
+      "pub_msg_data_heart_rate": 72,
+      "pub_msg_data_temperature": 36.5
+    }
+  },
+  {
+    "anchor_id": "anchor_002",
+    "gateway_id": "gw_001",
+    "name": "Sofa Anchor",
+    "mac_address": "BB:CC:DD:EE:FF:11",
+    "status": "online",
+    "lastSeen": "2025-11-17T14:35:00Z",
+    "isBound": true,
+    "position": {
+      "x": 12.0,
+      "y": 10.5,
+      "z": 0.5
+    },
+    "cloud_data": {
+      "id": 2,
+      "gateway_id": 1,
+      "fw_update": 0,
+      "led": 1,
+      "ble": 1,
+      "initiator": 0,
+      "position": {
+        "x": 12.0,
+        "y": 10.5,
+        "z": 0.5
+      },
+      "pub_msg_data_battery_voltage": 3.0,
+      "pub_msg_data_rssi": -58,
+      "pub_msg_data_heart_rate": 68,
+      "pub_msg_data_temperature": 36.2
+    }
+  },
+  {
+    "anchor_id": "anchor_003",
+    "gateway_id": "gw_002",
+    "name": "Toilet Anchor",
+    "mac_address": "CC:DD:EE:FF:11:22",
+    "status": "online",
+    "lastSeen": "2025-11-17T14:40:00Z",
+    "isBound": true,
+    "position": {
+      "x": 8.3,
+      "y": 2.1,
+      "z": 1.0
+    },
+    "cloud_data": {
+      "id": 3,
+      "gateway_id": 2,
+      "fw_update": 0,
+      "led": 1,
+      "ble": 1,
+      "initiator": 0,
+      "position": {
+        "x": 8.3,
+        "y": 2.1,
+        "z": 1.0
+      },
+      "pub_msg_data_battery_voltage": 3.4,
+      "pub_msg_data_rssi": -48,
+      "pub_msg_data_heart_rate": 75,
+      "pub_msg_data_temperature": 36.8
     }
   }
-}
+]

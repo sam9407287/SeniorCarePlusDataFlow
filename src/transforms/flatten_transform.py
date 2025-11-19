@@ -193,3 +193,6 @@ class EnrichDataTransform(beam.DoFn):
             logger.error(f"數據增強失敗: {str(e)}")
             yield element
 
+
+
+

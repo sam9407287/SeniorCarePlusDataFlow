@@ -164,3 +164,6 @@ class FilterValidRecordsTransform(beam.DoFn):
         is_valid = element.get("is_valid", False)
         yield is_valid, element
 
+
+
+

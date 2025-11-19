@@ -2,3 +2,6 @@
 {"anchor_id": "anchor_002", "gateway_id": "gw_001", "name": "Sofa Anchor", "mac_address": "BB:CC:DD:EE:FF:11", "cloudData": {"id": 2, "gateway_id": 1, "pub": {"msg": {"data": {"battery_voltage": 3.0, "rssi": -58, "heart_rate": 68, "temperature": 36.2}}}, "fw_update": 0, "led": 1, "ble": 1, "initiator": 0, "position": {"x": 12.0, "y": 10.5, "z": 0.5}}, "position": {"x": 12.0, "y": 10.5, "z": 0.5}, "status": "online", "lastSeen": "2025-11-17T14:35:00Z", "isBound": true}
 {"anchor_id": "anchor_003", "gateway_id": "gw_002", "name": "Toilet Anchor", "mac_address": "CC:DD:EE:FF:11:22", "cloudData": {"id": 3, "gateway_id": 2, "pub": {"msg": {"data": {"battery_voltage": 3.4, "rssi": -48, "heart_rate": 75, "temperature": 36.8}}}, "fw_update": 0, "led": 1, "ble": 1, "initiator": 0, "position": {"x": 8.3, "y": 2.1, "z": 1.0}}, "position": {"x": 8.3, "y": 2.1, "z": 1.0}, "status": "online", "lastSeen": "2025-11-17T14:40:00Z", "isBound": true}
 
+
+
+

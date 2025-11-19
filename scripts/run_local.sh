@@ -38,3 +38,6 @@ echo "📊 輸出文件："
 echo "  Gateway: /tmp/gateway_flattened*"
 echo "  Anchor: /tmp/anchor_flattened*"
 
+
+
+

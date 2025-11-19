@@ -2,3 +2,6 @@
 {"gateway_id": "gw_002", "name": "Bedroom", "ip_address": "192.168.1.101", "mac_address": "00:2C:3D:4E:5F:6A", "cloudData": {"id": 2, "gateway_id": 2, "pub": {"msg": {"data": {"battery_voltage": 3.5, "rssi": -52}}}, "fw_version": "v2.1.0"}, "position": {"x": 15.2, "y": 18.1, "z": 0.8}, "status": "online", "lastSeen": "2025-11-17T14:35:00Z"}
 {"gateway_id": "gw_003", "name": "Kitchen", "ip_address": "192.168.1.102", "mac_address": "00:3E:4F:5A:6B:7C", "cloudData": {"id": 3, "gateway_id": 3, "pub": {"msg": {"data": {"battery_voltage": 4.0, "rssi": -40}}}, "fw_version": "v2.1.0"}, "position": {"x": 5.1, "y": 25.5, "z": 1.5}, "status": "online", "lastSeen": "2025-11-17T14:40:00Z"}
 
+
+
+

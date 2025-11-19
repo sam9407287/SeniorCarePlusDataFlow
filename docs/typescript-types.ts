@@ -504,3 +504,5 @@ export default {
   BATTERY_VOLTAGE_RANGES,
 };
 
+
+

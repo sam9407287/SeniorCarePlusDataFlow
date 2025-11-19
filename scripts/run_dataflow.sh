@@ -43,3 +43,6 @@ echo ""
 echo "📊 監控："
 echo "  https://console.cloud.google.com/dataflow/jobs?project=$PROJECT_ID"
 
+
+
+

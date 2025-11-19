@@ -1,0 +1,42 @@
+{
+  "id": "anchor_1762876688408",
+  "gatewayId": "gw_1762873074837",
+  "name": "DW30C5",
+  "macAddress": "ANCHOR:12485",
+  "status": "active",
+  "position": {
+    "x": 59.654770985027035,
+    "y": -69.24380402090017,
+    "z": 1
+  },
+  "lastSeen": "2025-11-11T15:58:05.295Z",
+  "isBound": true,
+  "cloudData": {
+    "content": "config",
+    "gateway_id": 4192812156,
+    "node": "ANCHOR",
+    "name": "DW30C5",
+    "id": 12485,
+    "fw_update": 0,
+    "led": 1,
+    "ble": 1,
+    "initiator": 1,
+    "position": {
+      "x": -150.64,
+      "y": 1.33,
+      "z": 1
+    },
+    "receivedAt": "2025-11-11T15:58:05.295Z",
+    "pub": {
+      "msg": {
+        "data": {
+          "battery_voltage": 3.2,
+          "rssi": -52,
+          "heart_rate": 72,
+          "temperature": 36.5
+        }
+      }
+    }
+  }
+}
+
